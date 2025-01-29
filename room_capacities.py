@@ -11,6 +11,10 @@ ROOM_CAPACITIES = {
 }
 
 def get_available_room(remaining_places: dict):
+    """
+    Finds the first available room with a free seat.
+    Returns the room number, updated remaining places, and a boolean indicating availability.
+    """
     available_room = None
     for room_number, seat in remaining_places.items():
         if seat:
@@ -22,4 +26,3 @@ def get_available_room(remaining_places: dict):
         return available_room, remaining_places, False
 
     return available_room, remaining_places, True
-
