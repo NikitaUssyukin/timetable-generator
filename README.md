@@ -30,10 +30,6 @@ This Python script generates an exam timetable by assigning students to availabl
 3. **Install dependencies** (if any required in `requirements.txt`):
     - script only relies on built-in modules (`os`, `csv`, `datetime`), there are no external dependencies
 
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 ---
 
 ## 📂 File Structure
