@@ -1,0 +1,28 @@
+# Byte-compiled / compiled Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Logs and caches
+*.log
+*.sqlite3
+*.db
+
+# Ignore student CSV files
+students/*.csv
+
+# Ignore generated timetable file
+final_data.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore JetBrains/PyCharm and VS Code settings
+.idea/
+.vscode/
