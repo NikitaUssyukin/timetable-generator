@@ -16,8 +16,8 @@ This Python script generates an exam timetable by assigning students to availabl
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-repo/timetable-generator.git
-   cd timetable-generator
+   git clone https://github.com/bobur554396/pp1-timetable-generator.git
+   cd pp1-timetable-generator
    ```
 
 2. **Create a virtual environment (optional but recommended)**:
